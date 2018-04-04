@@ -1,7 +1,7 @@
 ---
 
 title: Proposed Structure of the IETF Administrative Organization
-abbrev: IASA 2.0
+abbrev: IAO DT Proposal
 docname: draft-dt-iasa20-proposal-00
 category: info
 
@@ -53,6 +53,7 @@ informative:
   I-D.arkko-ietf-iasa-thoughts:
   I-D.arkko-ietf-finance-thoughts:
   I-D.haberman-iasa20dt-recs:
+  I-D.hall-iasa2-struct:
 
   ML-memo:
     title: Options for New Organization to Conduct IETF Administrative Support Activities
@@ -66,7 +67,7 @@ informative:
     author:
       name: Richard Barnes
       ins: R. Barnes
-    dates: 2018-02-16
+    date: 2018-02-16
     target: https://ipv.sx/iasa2.0/IASA-Strawman.pdf
 
   Diagrams-no-trust:
@@ -74,7 +75,7 @@ informative:
     author:
       name: Richard Barnes
       ins: R. Barnes
-    dates: 2018-02-16
+    date: 2018-02-16
     target: https://ipv.sx/iasa2.0/IASA-Strawman-NoTrust.pdf
 
 --- abstract
@@ -145,14 +146,16 @@ anything to do with defining, changing, or operating the IETF's
 standards process and structure (participants (not members), WGs, IESG
 and so on), which remain as they stand today.
 
-As a base for this work there was a good articulation of the set of
+As a base for this document, there was a good articulation of the set of
 problems we are facing after an initial set of virtual workshops in
 early 2017 in [I-D.hall-iasa20-workshops-report] and a number of
 drafts describing problems from specific perspectives:
 [I-D.daigle-iasa-retrospective], [I-D.arkko-ietf-iasa-thoughts],
 [I-D.arkko-ietf-finance-thoughts]. The Design Team specified the types
 of organizational models and recommendations in
-[I-D.haberman-iasa20dt-recs], and a good deal of that content has been
+[I-D.haberman-iasa20dt-recs] for IETF 100, and proposed elements of a
+specific structure in [I-D.hall-iasa2-struct] for discussion at IETF 101.
+Some of the content from these documents has been
 incorporated into this document.
 
 The next two sections ({{background}} and {{problem-statement}})
@@ -823,336 +826,8 @@ a complete independence model will still need to be heavily involved
 in the business of IAO, there were no clear options that seemed
 strictly better given the problem statement and goals outlined above.
 
-{::comment}
-
-# Differences from IASA 1.0
-
-* The IAOC and IAD roles defined in RFC 4071 would be eliminated.
-
-* The ISOC and IAD responsibilities described in RFC 4071 would be
-  assigned to a new organization, "IAO." The legal structure
-  of this entity is to be determined.
-
-* The corporate board of IAO would assume the oversight
-  responsibilities of the IAOC.
-
-* A new IETF Administrative Advisory Council ("the AC") would be
-  established, which would assume the advisory responsibilities of the
-  IAOC.
-
-
-# IAO
-
-## Responsibilities
-
-IAO would be established to provide administrative support to
-the IETF. It would have no authority over standards development
-activities.
-
-The proposed responsibilities of the IAO are listed
-below. Whether these responsibilities would be carried out by staff,
-contractors, community volunteers, or a mix would be at the discretion
-of the Executive Director and his or her staff (see {{staffing}}). The
-responsibilities are:
-
-* Operations. The IAO is responsible for supporting the
-  ongoing operations of the IETF, including meetings and non-meeting
-  activities.
-
-* Finances. The IAO is responsible for managing the IETF's
-  finances and budget.
-
-* Fundraising. The IAO is responsible for raising money on
-  behalf of the IETF.
-
-Housing these responsibilities at IAO is designed to address
-the problems described in {lack-clarity} concerning lack of clarity
-around responsibility, representation, and authority. By having
-IAO manage the IETF's finances and conduct the IETF's
-fundraising, confusion about who is responsible for representing the
-IETF to sponsors and who directs the uses of sponsorship funds could
-be reduced or eliminated. Having IAO reside in a legal entity
-and take responsibility for operations would allow the org to execute
-its own contracts without the need for further approvals from ISOC.
-
-The IAO would be expected to conduct its work according to
-the following principles:
-
-* Transparency. The IAO would be expected to keep the IETF
-  community informed about its work and to engage the community and/or
-  the AC, as appropriate, to obtain community input.
-
-* Responsiveness to the community. The IAO would be expected
-  to act consistently with the documented consensus of the IETF
-  community, to be responsive to the community's needs, and to adapt
-  its decisions in response to community feedback.
-
-* Diligence. The IAO would be expected to act responsibly so
-  as to minimize risks to IETF participants and to the future of the
-  IETF as a whole.
-
-The transparency and responsiveness principles are designed to address
-the concern outlined in {lack-transparency} about the need for
-improved timeliness of sharing of information and decisions and
-seeking community comments. There is a need for agreement between the
-IETF community and the IAO about the where to draw the line
-between community's need for information and the need to keep some
-business and personnel data confidential. The devil here is in the
-details and it would be expected that one of the first tasks for the
-IAO Executive Director would be to document how IAO
-would engage with the community and to vet that proposal with the
-community.
-
-
-## Board Formation and Responsibilities
-
-The IAO board would be responsible for conducting oversight
-of IAO's execution of its responsibilities, as described in
-{{responsibilities}}.  This responsibility entails a number of
-concrete functions analogous to those currently preformed by the IAOC:
-
-* To hire, fire, and review the performance of the Executive Director
-  of IAO.
-
-* To provide high-level direction for the Executive Director's work.
-
-* To ensure that IAO has the financial and business stability
-  that it needs to be able to meet the needs of the IETF, including
-  approving an annual budget proposed by the Executive Director.
-
-* To ensure that IAO is run in a manner that is transparent
-  and accountable to the IETF community.
-
-The board would be purely an oversight body. Its responsibilities
-would be limited to those listed above. It would not conduct any of
-the IETF's administrative work.
-
-The role of the IAO board would be to ensure that the
-strategic orientation of IAO is consistent with the IETF's
-needs -- both its concrete needs and its needs for transparency and
-accountability.  The board is not intended to represent the IETF
-community in defining the IETF's needs; to the extent that is
-required, the IETF community should document its needs in consensus
-RFCs (e.g., as the community is aiming to do in
-{{?I-D.ietf-mtgvenue-iaoc-venue-selection-process}}) and provide more
-detailed input via the Advisory Council.
-
-The description below outlines one way in which the board of
-IAO could be populated. The specific details are less
-important than the goals motivating this particular formulation,
-discussed below. Depending on the legal structure of IAO,
-some or all board seats may need to be appointments made formally by
-ISOC {{ML-memo}}, however it may be possible to encourage or require
-ISOC to appoint people on the basis of recommendations from the IETF
-by establishing an operational agreement between IAO and
-ISOC. Thus the details of any proposed board structure may be refined
-depending on the legal structure that is chosen; the proposal below
-could just as easily be a framework for having the IETF recommend
-board members as it could be for having the IETF actually appoint
-them.
-
-The proposed structure of the board of IAO consists of five
-people:
-
-* The IETF Chair
-
-* One member selected by the IETF NOMCOM
-
-* One member selected by the ISOC board of trustees from among the
-  ISOC trustees appointed by the IAB
-
-* Two members selected by the board itself
-
-The goal of this structure is to balance the need for IAO to
-be accountable to the IETF community with the need for this board to
-have the expertise necessary to oversee a small corporation.  The
-first three seats listed above are all selected by the IETF community,
-via NOMCOM and the IAB.  The two board-selected seats are there so
-that the board can bring in members with specific experience or skills
-in non-profit management and finance needed to complement the
-IETF-selected members.
-
-The board is smaller than the current IAOC and the other leadership
-bodies of the IETF. Part of the motivation for keeping the board small
-is to keep the board focused on its rather limited set of tasks.
-
-This board structure, together with the staffing proposal below, is
-designed to overcome the challenges described in {oversight}
-concerning oversight. It establishes a clear line of oversight over
-staff performance: the board oversees the Executive Director's
-performance and has actual legal authority to remove a non-performing
-Executive Director. The Executive Director is responsible for the
-performance of the IAO.
-
-Finally, the board would be expected to operate transparently, to
-further address the concern raised in {lack-transparency}. As with the
-IAO, the board would need to establish up front how it would
-fulfill this commitment and how and when it would inform the IETF
-community about its actions.  These commitments and procedures
-embodying them could be encoded in the board's governing documents
-(e.g., bylaws).
-
-Note also that the board formation rules of IAO would be
-defined in its corporate documents, e.g., its articles of
-incorporation and bylaws.
-
-On a small board, board member term lengths and appointment cycles
-need some careful thought to ensure some continuity on the board and
-to account for external term limits and appointment cycles of the IETF
-Chair and the ISOC trustees. One way to arrange this would be to have
-the IETF Nomcom-appointed member’s term be two years and shifted a
-year from IETF Chair’s term. Setting the term for the ISOC
-trustees-selected member to two years would provide some additional
-continuity. The two members appointed by the board itself should have
-terms that do not both end at the same time.
-
-
-## Staffing
-
-IAO would be led by an Executive Director chosen by the
-board. The Executive Director would determine what other staff and
-contractors are required by IAO. Allowing for the division of
-responsibilities among multiple staff members and contractors should
-hopefully address some of the concerns raised in {lack-resources} and
-{funding}.
-
-Based on the amount of work currently undertaken by the IAD and others
-involved in the IETF administration who are not currently in
-contracted roles, it is anticipated that the Executive Director would
-hire multiple additional staff members. For example, there will likely
-be a need for dedicated staff to manage fundraising, to manage the
-various contractors that are engaged to fulfill the IETF's
-administrative needs, and to support outreach and communications.
-
-The IETF currently benefits from the use of contractors for
-accounting, finance, meeting planning, administrative assistance,
-legal counsel, tools, and web site support, as well as other services
-related to the standards process (RFC Editor and IANA). The IETF
-budget currently reflects specific support from ISOC for
-communications and fundraising as well as some general support for
-accounting, finance, legal, and other services. The division of
-responsibilities between staff and contractors would be at the
-discretion of the Executive Director and his or her staff.
-
-The IETF has a long history of community involvement in the execution
-of certain administrative functions, in particular development of IETF
-tools, the NOC's operation of the meeting network, and some outreach
-and communications activities conducted by the EDU and Mentoring
-Directorate. The IAO staff would be expected to respect the
-IETF community's wishes about community involvement in these and other
-functions going forward as long as the staff feels that they can meet
-the otherwise-stated needs of the community. Establishing the
-framework to allow the IAO to staff each administrative
-function as appropriate may require the IETF community to document its
-consensus expectations in areas where no documentation currently
-exists (see {{transition-considerations}}).
-
-
-
-# IETF Administrative Advisory Council (AC)
-
-The AC is proposed to advise the staff of IAO about how their
-work can best support the IETF. If the staff and contractors find it
-desirable, the AC may also advise the contractors.
-
-The AC is conceptualized as a body of IETF community members who can
-serve as a sounding board in situations where the IAO staff
-or contractors need to gauge community opinion or have questions about
-how administrative decisions might be viewed by the IETF
-community. For major administrative decisions, the IAO could
-be required to consult with the AC to gauge community opinion prior to
-deciding. Major administrative decisions might include the selection
-of a meeting venue or the award of a contract in excess of a certain
-fraction of the annual IETF budget.
-
-The AC would not have decisional authority, but the process for the
-IAO to engage the AC would be documented, and the
-IAO would be expected to inform the community about how AC
-input was incorporated into its decision-making.  A requirement to
-provide this kind of information could be included in the IAO
-bylaws. The oversight responsibilities of the IAO board would
-include ensuring that the IAO was complying with documented
-processes, and generally maintaining an appropriate level of
-engagement with the AC and the broader community.
-
-For other more minor administrative decisions, there would be no
-requirement that the staff consult the AC about any particular
-decision, but there would be the expectation that the staff could
-consult the AC whenever they felt it necessary.
-
-The virtue of the AC would be that for matters where the staff feels
-confident that they understand the community's desires and direction,
-they could execute their tasks without additional delays or
-approvals. For matters where they are unsure, they could seek opinions
-from the AC before proceeding. And for major decisions there would be
-a well-defined process for the IAO to understand a community
-perspective. The AC could also provide advice about situations where
-bringing a proposal or decision to the full IETF community for
-discussion would be warranted. It would be the staff's responsibility
-to bring those proposals to the community and manage those
-discussions, however.
-
-(TODO - How is it formed? And how to deal with the likely need for the
-AC to review confidential information?)
-
-# Transition Considerations
-
-Conducting a transition as envisioned in this document would encompass
-many different aspects and would require action from the IETF
-community, the IAOC, the IAD, ISOC, the newly hired IAO
-Executive Director and staff, and newly appointed IAO board
-members. This document sketches some thoughts on the subset of tasks
-that would entail some IETF community involvement or review (as
-opposed to, say, the transfer of administrative assets).
-
-There are a number of tasks under this proposal that would require an
-initial bootstrap:
-
-* Defining the articles of incorporation and the bylaws of
-  IAO, including provisions about how those documents may be
-  amended in the future.
-
-* Populating the IAO board.  The initial board for an
-  organization is usually specified in its founding documents (e.g.,
-  articles of incorporation), along with a mechanism for replacing the
-  initial board.  The current IETF Chair can be included in this
-  initial set, and the NOMCOM-appointed and ISOC-board-appointed
-  members can be seated as the appointing bodies are able.  It remains
-  to determine how to select the initial board-selected members.
-
-* Hiring the Executive Director.  This would presumably be undertaken
-  by the IAO board once its membership is sufficiently well
-  established.
-
-* Defining the operating procedures and administrative support for the
-  board. The board would need to have processes defined for selecting
-  a chair and conducting its work. The board would also need to define
-  how it would fulfill its transparency obligations to the community.
-
-* Defining the operating procedures and administrative support for the
-  AC. The AC would need to have processes defined for selecting a
-  chair and engaging with the IAO.
-
-Once the Executive Director and any additional staff are hired, it
-would be expected for IAO to:
-
-* Document how it will fulfill its commitment to transparency and how
-  it will engage with the IETF community.
-
-* Do a thorough review of existing contracts, community volunteer
-  arrangements, and administrative assets to determine the need for
-  initial changes.
-
-At the same time, there may be areas where the IETF community needs to
-document its consensus, e.g., expectations about community involvement
-in NOC or tools efforts.
-
-(TODO: Document how to unwind the existing structures.)
-
-{:/comment}
-
 # Acknowledgments
 
-Thanks to Richard Barnes, Alissa Cooper, and Sean Turner for
+Thanks to Richard Barnes, Alissa Cooper, John Levine, and Sean Turner for
 discussions of possible structures, and to the attorneys of Morgan
 Lewis for their advice on possible legal impacts.
