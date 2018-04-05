@@ -108,14 +108,16 @@ change in the necessary tasks, in the world around us, and our own
 expectations since the creation of the IASA.
 
 The system has experienced various challenges and frustrations along
-the way, for instance around meeting arrangements.  There are also
-bigger questions about how the organizations are structured, for
-instance about the division of responsibilities between IETF and The
-Internet Society (ISOC).
+the way. IETF participants have experienced some questions over
+administrative choices made for the organization (e.g., meeting venue
+selections, hotel availability and costs), and then voiced concerns
+about the seeming lack of transparency and responsiveness from the
+components of IASA, or even clarity about who is responsible for the
+decisions, or who to follow up with to address stated concerns.
 
 The IETF community has discussed and continues to discuss these
 topics, most recently on the "IASA 2.0" mailing list and BOFs at IETFs
-98, 99, 100, and 101.  Alissa Cooper, the Chair of the IETF, convened
+98, 99, 100, and 101.  The IETF Chair convened
 a small design team (the authors of this document) in 2017 to start
 evaluating potential options.  The purpose of the design team is to
 provide material that informs the community discussion, both in terms
@@ -352,11 +354,13 @@ The IAOC is the primary oversight body in the current IASA model, but
 there can be confusion or mismatches in roles.  For example, to the
 extent that ISOC staff besides the IAD become engaged in
 administrative work for the IETF, to whom do they report?  The IAOC,
-the IAD, or their management at ISOC?  Even if the reporting line for
-such staff were more clear, clearly there are power dynamics in this
-role that might pull an ISOC-assigned IETF staffer in directions that
-might not be in the best interests of IETF, consciously or
-unconsciously.
+the IAD, or their management at ISOC? Ultimately, any employee will recognize
+their primary responsibility to their employer (i.e,. ISOC, and
+specifically to their ISOC management chain). Even in a
+well-balanced relationship between the IETF and ISOC, this leads to
+conflicting priorities and availability, with the ISOC staff person having
+to continuously explain and validate IETF priorities within the ISOC
+reporting chain.
 
 Furthermore, when we're in a position where we need more staff
 support, it's not obvious what the most appropriate path is to obtain
@@ -371,11 +375,11 @@ the IAOC with respect to such staff is not defined, nor is the
 mechanism for reflecting the work that they do for the IETF back to
 their ISOC management.
 
-IAO's oversight functions must be complete and coherent.  For
+IAO's oversight and management functions must be complete and coherent. For
 example, it might either take on full oversight responsibility for
-staff employment functions (including reporting structures and career
+staff employment functions (including reporting structures for management reporting and career
 development), or the oversight role must be limited to review input
-submitted to the external sources responsible for employment.
+submitted to the external sources responsible for employment, leaving the question of competing priorities unsolved.
 
 ## Lack of Resources {#lack-resources}
 
@@ -387,7 +391,10 @@ function, notably in volunteers and staff.
 The IAD is the sole full-time employee for IETF, and the IASA
 arrangement encompasses a series of volunteer committees that help to
 work through issues such as finance, legal, meetings, technology
-management, requests for proposals, and sponsorship.  However, it is
+management, requests for proposals, and sponsorship. These responsibilities are
+expanding in both time requirements, and scope. In some cases, the IETF is verging on
+requiring volunteers to take on actual work items — which is beyond the scope of what
+is reasonable to ask of a volunteer. As a result, it is
 becoming close to impossible to find qualified volunteers who are
 willing to stand for open slots on the IAOC.  In general, on both the
 IAOC and the committees, the time that committee members have to
@@ -434,6 +441,8 @@ expectations set as part of this IASA 2.0 process.
 
 ## Funding/Operating Model Mismatch and Rising Costs {#funding}
 
+The IETF is facing a changing financial landscape, and is ill-equipped to set itself up for the future.
+
 Meeting fees are currently an important source of revenue, but the
 emergence of more viable remote participation tools and other factors
 are likely responsible for declining in-person meeting attendance
@@ -446,25 +455,17 @@ always obvious, the IETF community is sometimes critical or
 unappreciative, and the same sponsors get tapped again and again for
 many related but different opportunities.
 
-At this point we have one part-time contractor responsible for
-sponsorship fundraising, and volunteers on the finance and sponsorship
-committees with limited cycles to spend on re-envisioning the
-fundraising model for the IETF.  They are all putting in good efforts,
-but ultimately we are unlikely to be able to meet the present funding
-challenges if we do not have people with the cycles available to
-dedicate the necessary time to figuring out how to do that.
-
 In addition, relying heavily on meeting-based revenue is somewhat at
 odds with the fact that much of the IETF's work takes place outside of
 in-person meetings.
 
-The IETF is increasingly relying on professional services to support
-its activities -- in order to more efficiently operate the IETF's
+Further exacerbating the situation, the IETF is increasingly relying on professional services to support
+its activities - in order to more efficiently operate the IETF's
 activities and better enable IETF participants to contribute to the
 IETF's core technical work rather than administrative and supporting
 activities work -- which is also causing expenses to grow.
-IAO must have appropriate authority and tools to adapt the
-funding model of the IETF to evolving realities.
+
+IAO must have appropriate expertise/resource to identify better funding models for the future for the IETF to deal with its evolving realities, as well as the authority and tools to implement them.
 
 # Goals {#goals}
 
@@ -525,8 +526,10 @@ structure needs to do at least the following:
   decisions.
 
     There also needs to be a clear definition of what issues belong to
-    the IESG vs. the IASA organisation or staff.  In many cases that
-    is not clear today.
+    the IESG or IETF Chair vs. the IASA organisation or staff.  In
+    many cases that is not clear today, and the IETF Chair role
+    includes a lot of administrative leadership responsibility beyond
+    a rational scope for the position.
 
 * Define Support Staff Roles and Responsibilities: Clearly define the
   roles of the oversight entities and staff/contractors to match the
@@ -545,11 +548,11 @@ structure needs to do at least the following:
   operational, and execution tasks within the administrative efforts.
 
      The new design needs to ensure that volunteers are not overloaded
-     in such things as low level operational decisions, which can be
-     delegated to and handled by staff, and can instead focus on
-     strategic changes, critical decisions, and so on.  In particular,
-     this should focus on clearly documenting the lines between
-     responsibility, representation, authority, and oversight.
+     in such things as low level operational decisions, which are
+     properly the responsibility of staff, and volunteers can instead
+     focus on strategic changes, critical decisions, and so on.  In
+     particular, this should focus on clearly documenting the lines
+     between responsibility, representation, authority, and oversight.
 
 * Define Improved Transparency Requirements: The general level of
   operational transparency and information-sharing between IETF
@@ -557,16 +560,18 @@ structure needs to do at least the following:
   at an acceptable level, and improved where it makes sense in the
   future.  This includes ensuring the timeliness of sharing of
   information and decisions, as well as seeking comment on prospective
-  decisions.  At the same time, we need to reset expectations around
-  delegated authority so that once staff or an administrative support
-  organization has been delegated certain authority it is clear that
-  they are empowered to proceed in a particular area, so as to improve
-  organizational efficiency, reduce friction, and improve the pace of
-  work and decision-making.  However, it is clear that enabling a
-  group or staff to act within their delegated authority depends upon
-  a clearer definition of roles and responsibilities, on improved
-  transparency, on improved communications, and on trust (which is
-  built upon all of those things over time).
+  decisions.  At the same time, we need to reset
+  expectations around responsibility and authority so that once staff or an
+  administrative support organization has been delegated certain
+  authority by the definition of the new structure, it is clear that they
+  are empowered to proceed in a
+  particular area .  This will improve organizational efficiency,
+  reduce friction, and improve the pace of work and decision-making.
+  However, it is clear that enabling a group or staff to act within
+  their proscribed authority depends upon a clearer definition of
+  roles and responsibilities, on improved transparency, on improved
+  communications, and on trust (which is built upon all of those
+  things over time).
 
 * Define a Transition Plan: Determine what new IASA structure we need
   and define a transition plan from the model the IETF has today to
@@ -769,9 +774,8 @@ state and federal tax exempt status, and it allows IETF to continue to
 benefit from ISOC's tax exempt status and financial reporting and
 auditing. IAO will be a legal entity that can have and control its own
 bank accounts and sign contracts without involving ISOC. Crucially,
-this option allows the operating agreement to specify that the board
-can be appointed by delegation to a committee (likely the IAB) of
-IETF.
+this option allows the operating agreement to delegate the task of
+appointing a board to a committee (likely the IAB) of IETF.
 
 # Important Remaining Issues {#imp-issues}
 
