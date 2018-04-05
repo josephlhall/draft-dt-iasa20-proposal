@@ -190,7 +190,7 @@ The following acronyms are used in this document:
   committees do the heavy lifting on specific tasks, while the IAOC is
   the one responsible for final decisions.
 
-* IAO - An abbreviation referring to the new IETF adminsitrative
+* IAO - An abbreviation referring to the new IETF administrative
   organization (called "IETFAdminOrg" in past documents).
 
 * ISOC - The Internet Society - The organizational home of the IETF,
@@ -511,7 +511,7 @@ structure needs to do at least the following:
 * Provide Clarity About the IETF-ISOC Financial Arrangements: A
   redesign needs to clear up ambiguities in the financial arrangements
   between IETF and ISOC.  It must also be clear to people outside the
-  IETF and ISOC organisations (e.g., sponsors) what the arrangements
+  IETF and ISOC organizations (e.g., sponsors) what the arrangements
   are and what their contributions affect and do not affect.
 
 * Clarify Overall Roles and Responsibilities: Ensure that all staff,
@@ -526,7 +526,7 @@ structure needs to do at least the following:
   decisions.
 
     There also needs to be a clear definition of what issues belong to
-    the IESG or IETF Chair vs. the IASA organisation or staff.  In
+    the IESG or IETF Chair vs. the IASA organization or staff.  In
     many cases that is not clear today, and the IETF Chair role
     includes a lot of administrative leadership responsibility beyond
     a rational scope for the position.
@@ -598,7 +598,7 @@ particular state and then applying at the federal level to the IRS for
 tax exemption to achieve 501(c)(3) status.  In this case, all
 functions of IAO would be legally independent of ISOC, including board
 appointments, hiring and firing, etc. IAO would face increased
-one-time and ongoing adminstrative complexities, including maintenance
+one-time and ongoing administrative complexities, including maintenance
 of tax-exempt status, separate audits, financial statements, and tax
 filing. ISOC could continue to provide funding to the IAO and ISOC
 could set the terms of funding through a grant agreement or contract.
@@ -762,11 +762,11 @@ the analysis to give a baseline for comparison of the other options.
 # Design Team Recommendation (Option 3) {#dt-rec}
 
 After discussion and consideration, the design team recommended at the
-IASA 2.0 BOF sesstion at IETF 101 that we pursue Option 3, the
+IASA 2.0 BOF session at IETF 101 that we pursue Option 3, the
 disregarded LLC option.
 
 In our view, this option gives increased independence without the full
-adminstrative complexity of the other options. Notably, this option is
+administrative complexity of the other options. Notably, this option is
 easier to set up than the non-profit corporation options and also has
 simpler annual reporting requirements; that is, the LLC option does
 not require state-level incorporation, does not require filing for
@@ -786,7 +786,7 @@ The issue of increased transparency was important throughout the IASA
 will naturally be a confidentiality requirement about hotel
 contracting, personnel matters, and other narrow areas.  At IETF 101
 in the IASA 2.0 BOF, the design team proposed the following default
-transaprency rule:
+transparency rule:
 
 > Whatever doesn't have a specific justification for being kept
   confidential, should be made public. There must exist a public list
@@ -800,7 +800,7 @@ deliberation. An earlier draft from the design team discussed a small
 5-member board, and list discussion saw proposals that included 7 and
 9 members, with some mix of the IETF Chair, IETF-appointed ISOC Board
 members, NOMCOM-appointed members. Discussion of composition, term
-lengths, types of experience needed, liasons, officers, are all
+lengths, types of experience needed, liaisons, officers, are all
 details the design team will leave in the hands of a chartered IETF
 working group in the near future.
 
@@ -814,7 +814,7 @@ activity will be performed by paid IAO staff, potentially limiting the
 nature and quantity of feedback that the IAO gets from the IETF
 community.  One option discussed heavily and mostly rejected was the
 potential notion of an Advisory Council, that could be a venue for
-directly marshalling community feedback into the IAO structure.
+directly marshaling community feedback into the IAO structure.
 
 It is unclear what kind of feedback mechanism -- other than email sent
 in response to an ietf@ietf.org mailing list post -- would be
