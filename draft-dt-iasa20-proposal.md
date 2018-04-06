@@ -101,7 +101,7 @@ Company (LLC) of the Internet Society.
 
 The arrangements relating to administrative support for the IETF
 (referred to as the "IETF Administrative Support Activity" (IASA)
-({{RFC4071}}) were created more than ten years ago, when the IETF
+({{RFC4071}})) were created more than ten years ago, when the IETF
 initially took charge of its own administration.  The arrangements
 have served the IETF reasonably well, but there's been considerable
 change in the necessary tasks, in the world around us, and our own
