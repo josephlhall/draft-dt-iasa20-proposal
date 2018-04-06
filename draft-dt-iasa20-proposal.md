@@ -2,7 +2,7 @@
 
 title: Proposed Structure of the IETF Administrative Organization
 abbrev: IAO DT Proposal
-docname: draft-dt-iasa20-proposal-00
+docname: draft-dt-iasa20-proposal-01
 category: info
 
 ipr: trust200902
