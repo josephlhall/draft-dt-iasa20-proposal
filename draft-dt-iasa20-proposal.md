@@ -769,7 +769,7 @@ In our view, this option gives increased independence without the full
 administrative complexity of the other options. Notably, this option is
 easier to set up than the non-profit corporation options and also has
 simpler annual reporting requirements; that is, the LLC option does
-not require state-level incorporation, does not require filing for
+not require filing for
 state and federal tax exempt status, and it allows IETF to continue to
 benefit from ISOC's tax exempt status and financial reporting and
 auditing. IAO will be a legal entity that can have and control its own
