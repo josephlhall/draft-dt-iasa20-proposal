@@ -470,7 +470,7 @@ IAO must have appropriate expertise/resource to identify better funding models f
 # Goals {#goals}
 
 The IASA redesign effort needs to address the main issues listed above
-in {problem-statement}.  More specifically, the future organizational
+in {{problem-statement}}.  More specifically, the future organizational
 structure needs to do at least the following:
 
 * Protect the IETF's Culture and Technical Work: Ensure that the
